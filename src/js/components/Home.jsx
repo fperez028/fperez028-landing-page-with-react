@@ -6,7 +6,7 @@ import {Footer} from './Footer';
 
 export const Home = () => {
     return (
-        <div className="d-flex flex-column min-vh-100">
+        <div className="d-flex flex-column">
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossOrigin="anonymous" />
             <Navbar />
             <Jumbotron
@@ -14,8 +14,8 @@ export const Home = () => {
                 description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaerat nam nobis illo aspernatur vitae fugiat numquam repellat."
                 buttonText="Call to action!"
             />
-            <div className="container px-lg-5">
-                <div className="row gx-lg-5">
+            <div className="container">
+                <div className="row">
                     <Card
                         imageUrl="https://placehold.co/500x325"
                         imageAltText="Placeholder Image 1"
